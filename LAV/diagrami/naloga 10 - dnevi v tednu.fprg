@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 05:03:47 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjU2OjEyIHBvcC47MjM4Mg=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA1OjAzOjQ3IHBvcC47NzsyNDk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="stevilka" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vpi&#353;i &#353;tevilko dneva&quot;" newline="True"/>
+            <input variable="stevilka"/>
+            <if expression="stevilka = 1">
+                <then>
+                    <output expression="&quot;Ponedeljek&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="stevilka = 2">
+                        <then>
+                            <output expression="&quot;Torek&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="stevilka = 3">
+                                <then>
+                                    <output expression="&quot;Sreda&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="stevilka = 4">
+                                        <then>
+                                            <output expression="&quot;&#268;etrtek&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="stevilka = 5">
+                                                <then>
+                                                    <output expression="&quot;Petek&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="stevilka = 6">
+                                                        <then>
+                                                            <output expression="&quot;Sobota&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="stevilka = 7">
+                                                                <then>
+                                                                    <output expression="&quot;Nedelja&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;&#352;tevilka ni od ena do sedem&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
