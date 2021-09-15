@@ -4,20 +4,25 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Dijak"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-09-15 04:26:34 pop."/>
+        <attribute name="saved" value="2021-09-15 04:43:12 pop."/>
         <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjIzOjA1IHBvcC47MjM3OA=="/>
-        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjI2OjM0IHBvcC47MzsyNDkz"/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjQzOjEyIHBvcC47OTsyNDk0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="ura1, ura2, min1, min2, sest" type="Integer" array="False" size=""/>
+            <declare name="ura1, ura2, min1, min2, ura3, min3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vpi&#353;i prvo uro&quot;" newline="True"/>
             <input variable="ura1"/>
+            <output expression="&quot;Vpi&#353;i prvo minuto&quot;" newline="True"/>
             <input variable="min1"/>
+            <output expression="&quot;Vpi&#353;i drugo uro&quot;" newline="True"/>
             <input variable="ura2"/>
+            <output expression="&quot;Vpi&#353;i drugo minuto&quot;" newline="True"/>
             <input variable="min2"/>
-            <output expression="ura1+ura2" newline="True"/>
-            <output expression="min1+min2" newline="True"/>
+            <assign variable="min3" expression="(min2 + min1) % 60"/>
+            <assign variable="ura3" expression="ura1 + ura2 + (min1 + min2) / 60"/>
+            <output expression="ura3 &amp; &quot; ur in &quot; &amp; min3 &amp; &quot; minut&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>
