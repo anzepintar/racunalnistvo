@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 04:16:58 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjA5OjE1IHBvcC47MjM4Mw=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjE2OjU4IHBvcC47MzsyNDk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ure, min, sek" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vnesi ure&quot;" newline="True"/>
+            <input variable="ure"/>
+            <output expression="&quot;Vnesi minute&quot;" newline="True"/>
+            <input variable="min"/>
+            <output expression="&quot;Vnesi sekunde&quot;" newline="True"/>
+            <input variable="sek"/>
+            <output expression="&quot;&#352;tevilo sekund &quot; &amp; ure*3600 + min*60 + sek" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

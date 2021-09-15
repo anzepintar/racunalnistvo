@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 04:26:34 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjIzOjA1IHBvcC47MjM3OA=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjI2OjM0IHBvcC47MzsyNDkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ura1, ura2, min1, min2, sest" type="Integer" array="False" size=""/>
+            <input variable="ura1"/>
+            <input variable="min1"/>
+            <input variable="ura2"/>
+            <input variable="min2"/>
+            <output expression="ura1+ura2" newline="True"/>
+            <output expression="min1+min2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

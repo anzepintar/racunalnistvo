@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 04:08:59 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzAzOjU3OjE5IHBvcC47MjM4OQ=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjA4OjU5IHBvcC47NjsyNTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vpi&#353;i prvo &#353;tevilko:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Vpi&#353;i drugo &#353;tevilko&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;Se&#353;tevek je:&quot;" newline="True"/>
+            <output expression="num1 + num2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

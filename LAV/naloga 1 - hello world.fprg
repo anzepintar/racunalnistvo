@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 03:56:43 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzAzOjU2OjE0IHBvcC47MjM4Mw=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzAzOjU2OjQzIHBvcC47MTsyNDkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello world&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

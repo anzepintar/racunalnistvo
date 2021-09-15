@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 04:16:18 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjAxOjQ1IHBvcC47MjM3OA=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjE2OjE4IHBvcC47NDsyNDk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, num4" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vpi&#353;ite 1. &#353;tevilo&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Vpi&#353;ite 2. &#353;tevilo&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;Vpi&#353;ite 3. &#353;tevilo&quot;" newline="True"/>
+            <input variable="num3"/>
+            <output expression="&quot;Povpre&#269;je je &quot; &amp; (num3 + num2 + num1) / 3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

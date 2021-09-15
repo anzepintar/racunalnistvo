@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 03:57:17 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzAzOjQ4OjMxIHBvcC47MjM4Mw=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzAzOjU3OjE3IHBvcC47MjsyNDk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ime" type="String" array="False" size=""/>
+            <output expression="&quot;Pozdravljen! Kako ti je ime?&quot;" newline="True"/>
+            <input variable="ime"/>
+            <output expression="&quot;Tvoje ime je:&quot;" newline="True"/>
+            <output expression="ime" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

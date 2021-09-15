@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 04:23:04 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjE3OjA2IHBvcC47MjM4Mg=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTE1OzA0OjIzOjA0IHBvcC47MjsyNDg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dolzina, sirina, obseg, ploscina" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vnesi dol&#382;ino&quot;" newline="True"/>
+            <input variable="dolzina"/>
+            <output expression="&quot;Vnesi vi&#353;ino&quot;" newline="True"/>
+            <input variable="sirina"/>
+            <assign variable="obseg" expression="dolzina*2 + sirina*2"/>
+            <assign variable="ploscina" expression="dolzina * sirina"/>
+            <output expression="&quot;Plo&#353;&#269;ina pravokotnika je &quot; &amp; ploscina &amp; &quot;. Obseg pravokotnika je &quot; &amp; obseg &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
