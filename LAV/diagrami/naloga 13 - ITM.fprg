@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anzepintar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-19 02:27:48 pop."/>
+        <attribute name="created" value="YW56ZXBpbnRhcjtBU1VTLVg1NDBMOzIwMjEtMDktMTk7MDI6MTU6NTQgcG9wLjszMjcx"/>
+        <attribute name="edited" value="YW56ZXBpbnRhcjtBU1VTLVg1NDBMOzIwMjEtMDktMTk7MDI6Mjc6NDggcG9wLjsxMzszNDM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vis, tez, itm" type="Real" array="False" size=""/>
+            <output expression="&quot;Vpi&#353;i vi&#353;ino v cm:&quot;" newline="True"/>
+            <input variable="vis"/>
+            <output expression="&quot;Vpi&#353;i te&#382;o v kg&quot;" newline="True"/>
+            <input variable="tez"/>
+            <assign variable="itm" expression="tez / (vis*vis/10000)"/>
+            <if expression="itm &gt; 17.5">
+                <then>
+                    <if expression="itm &lt; 25">
+                        <then>
+                            <output expression="&quot;Normalna telesna te&#382;a. ITM je &quot; &amp; ToFixed(itm, 1) &amp; &quot; .&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Prekomerna telesna te&#382;a. ITM je &quot; &amp; ToFixed(itm, 1) &amp; &quot; .&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Prenizka telesna te&#382;a. ITM je &quot; &amp; ToFixed(itm, 1) &amp; &quot; .&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

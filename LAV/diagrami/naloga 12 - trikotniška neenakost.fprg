@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anzepintar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-19 02:15:35 pop."/>
+        <attribute name="created" value="YW56ZXBpbnRhcjtBU1VTLVg1NDBMOzIwMjEtMDktMTk7MDI6MTA6MTkgcG9wLjszMjY3"/>
+        <attribute name="edited" value="YW56ZXBpbnRhcjtBU1VTLVg1NDBMOzIwMjEtMDktMTk7MDI6MTU6MzUgcG9wLjs2OzMzODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Dol&#382;ina stranice a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Dol&#382;ina stranice a&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Dol&#382;ina stranice a&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a + b &gt; c &amp;&amp; a + c &gt; b &amp;&amp; b + c &gt; a">
+                <then>
+                    <output expression="&quot;Trikotnik je neenak&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Trikotnik ni neenak&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
