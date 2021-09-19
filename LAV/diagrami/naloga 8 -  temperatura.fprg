@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="anzepintar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-19 02:35:43 pop."/>
+        <attribute name="created" value="YW56ZXBpbnRhcjtBU1VTLVg1NDBMOzIwMjEtMDktMTk7MDI6MzI6NDcgcG9wLjszMjcy"/>
+        <attribute name="edited" value="YW56ZXBpbnRhcjtBU1VTLVg1NDBMOzIwMjEtMDktMTk7MDI6MzU6NDMgcG9wLjszOzMzODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="st" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vnesi temperaturo v &#176;C&quot;" newline="True"/>
+            <input variable="st"/>
+            <output expression="&quot;To je enako &quot; &amp; st * (9/5) + 32 &amp; &quot;&#176;F&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
