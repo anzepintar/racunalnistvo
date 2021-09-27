@@ -4,14 +4,15 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Skrbnik"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-09-27 11:54:29 dop."/>
+        <attribute name="saved" value="2021-09-27 09:14:39 pop."/>
         <attribute name="created" value="U2tyYm5paztERVNLVE9QLUgxUkZPNlA7MjAyMS0wOS0yNzsxMToyMjozNCBkb3AuOzMyODU="/>
         <attribute name="edited" value="U2tyYm5paztERVNLVE9QLUgxUkZPNlA7MjAyMS0wOS0yNzsxMTo1NDoyOSBkb3AuOzE7MzQwMg=="/>
+        <attribute name="edited" value="YW56ZXBpbnRhcjtBU1VTLVg1NDBMOzIwMjEtMDktMjc7MDk6MTQ6MzkgcG9wLjs3OzMzOTM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="a, b, c, alfa, beta, pl" type="Real" array="False" size=""/>
+            <declare name="a, b, c, alfa, beta, square" type="Real" array="False" size=""/>
             <output expression="&quot;Vpi&#353;i a&quot;" newline="True"/>
             <input variable="a"/>
             <output expression="&quot;Vpi&#353;i b&quot;" newline="True"/>
@@ -19,7 +20,8 @@
             <assign variable="c" expression="sqrt(a*a + b*b)"/>
             <assign variable="alfa" expression="arccos((C*C + A*A - B*B)/(2*C*A))*57.2957795"/>
             <assign variable="beta" expression="arccos((C*C + B*B - A*A)/(2*C*B))*57.2957795"/>
-            <output expression="alfa" newline="True"/>
+            <assign variable="square" expression="a*b/2"/>
+            <output expression="&quot;a =&quot; &amp; a &amp; ToChar(13) &amp;&#13;&#10;&quot; b =&quot; &amp; b &amp; ToChar(13) &amp;&#13;&#10;&quot; c =&quot; &amp; c &amp; ToChar(13) &amp;&#13;&#10;&quot; alfa =&quot; &amp; alfa &amp; ToChar(13) &amp;&#13;&#10;&quot; beta =&quot; &amp; beta &amp; ToChar(13) &amp;&#13;&#10;&quot; plo&#353;&#269;ina =&quot; &amp; square" newline="False"/>
         </body>
     </function>
 </flowgorithm>
