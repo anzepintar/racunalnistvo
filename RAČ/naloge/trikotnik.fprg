@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Skrbnik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-27 11:54:29 dop."/>
+        <attribute name="created" value="U2tyYm5paztERVNLVE9QLUgxUkZPNlA7MjAyMS0wOS0yNzsxMToyMjozNCBkb3AuOzMyODU="/>
+        <attribute name="edited" value="U2tyYm5paztERVNLVE9QLUgxUkZPNlA7MjAyMS0wOS0yNzsxMTo1NDoyOSBkb3AuOzE7MzQwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, alfa, beta, pl" type="Real" array="False" size=""/>
+            <output expression="&quot;Vpi&#353;i a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Vpi&#353;i b&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="sqrt(a*a + b*b)"/>
+            <assign variable="alfa" expression="arccos((C*C + A*A - B*B)/(2*C*A))*57.2957795"/>
+            <assign variable="beta" expression="arccos((C*C + B*B - A*A)/(2*C*B))*57.2957795"/>
+            <output expression="alfa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
