@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-29 01:57:08 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTI5OzAxOjE4OjU4IHBvcC47MjM5Mg=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTI5OzAxOjU3OjA4IHBvcC47OTsyNTA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, a, b" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <output expression="&quot;Vpi&#353;i &#353;tevilko&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="2"/>
+            <while expression="i &lt; a &amp;&amp; (b != 1)">
+                <assign variable="i" expression="i + 1"/>
+                <assign variable="b" expression="a % i +1"/>
+            </while>
+            <if expression="a != i">
+                <then>
+                    <output expression="&quot;Ni pra&#353;tevilo&quot;" newline="True"/>
+                    <output expression="&quot;Deljivo s/z &quot; &amp; i" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Je pra&#353;tevilo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

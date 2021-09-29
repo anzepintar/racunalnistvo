@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dijak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-29 01:33:35 pop."/>
+        <attribute name="created" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTI5OzAxOjA1OjA3IHBvcC47MjM4Mg=="/>
+        <attribute name="edited" value="RGlqYWs7MjI0LVBDMTsyMDIxLTA5LTI5OzAxOjMzOjM1IHBvcC47NTsyNDk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="9999"/>
+            <while expression="i &gt; 999 &amp;&amp; i % 7 != 0">
+                <assign variable="i" expression="i-1"/>
+            </while>
+            <output expression="i" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
