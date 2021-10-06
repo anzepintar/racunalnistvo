@@ -1,11 +1,13 @@
 # Snov
 
 ## Scanner
+
 - ```import java.util.Scanner;``` // napišemo nad *public class*
 
 - ```Scanner vnos = new Scanner(System.in);```
 
 ## Branje podatkov:
+
 - ```vnos.nextLine();``` // prebere string
 - ```vnos.nextInt();``` // prebere int
 - ```vnos.nextDouble();``` // prebere double
