@@ -3,7 +3,7 @@
 ## Scanner
 - ```import java.util.Scanner;``` // napišemo nad *public class*
 
-- Scanner vnos = new Scanner(System.in);
+- ```Scanner vnos = new Scanner(System.in);```
 
 ## Branje podatkov:
 - ```vnos.nextLine();``` // prebere string
