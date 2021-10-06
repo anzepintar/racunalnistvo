@@ -1,6 +1,6 @@
 # snov
 
-Scanner
+## Scanner
 - import java.util.Scanner; // napišemo nad *public class*
 
 - Scanner vnos = new Scanner(System.in);
@@ -14,3 +14,4 @@ Scanner
 - vnos.nextShort(); // prebere short
 - vnos.nextByte(); // prebere bit
 - vnos.nextBoolean(); // prebere boolean
+- vnos.nextLine().charAt(0); // prebere prvi char stringa
