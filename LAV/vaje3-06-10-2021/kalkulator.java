@@ -1,3 +1,5 @@
+package sola;
+
 import java.util.Scanner;
 
 public class Kalkulator {
@@ -7,16 +9,16 @@ public class Kalkulator {
 		char operator;
 		Double num1, num2, rez;
 
-		Scanner input = new Scanner(System.in);
+		Scanner vnos = new Scanner(System.in);
 
 		System.out.println("Izberi operator: +, -, *, or /");
-		operator = input.next().charAt(0);
+		operator = vnos.next().charAt(0);
 
 		System.out.println("Vnesi prvo številko");
-		num1 = input.nextDouble();
+		num1 = vnos.nextDouble();
 
 		System.out.println("Vnesi drugo številko");
-		num2 = input.nextDouble();
+		num2 = vnos.nextDouble();
 
 		switch (operator) {
 
