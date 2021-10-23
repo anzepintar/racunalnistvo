@@ -13,6 +13,7 @@ public class diagonala {
 		int cm = (int) c;
 		float d = (c-cm)*10;
 		int mm = (int) d;
-		System.out.println("Diagonala televizije je: " + m + " m, " + dm + " dm, " + cm +  " cm in " + mm + " mm "); 
+		System.out.println("Diagonala televizije je: " + m + " m, " + dm + " dm, " + cm +  " cm in " + mm + " mm ");
+		vnos.close();
 	}
 }
