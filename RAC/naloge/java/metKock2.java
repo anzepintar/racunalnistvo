@@ -8,7 +8,7 @@ public class metKock2 {
 
 		String p0n, pnn, p1l, p1c, p1r, p2n, a1, a2, a3, b1, b2, b3;
 		pnn = "  -------  ";
-		p0n = " |       | "; // prazno
+		p0n = " |       | ";
 		p1l = " | *     | "; // left
 		p1c = " |   *   | "; // center
 		p1r = " |     * | "; // right
