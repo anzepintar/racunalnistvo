@@ -21,5 +21,6 @@ class trikotnik {
     " \nbeta =" + beta +
     " \nploščina =" + square 
     );
+		vnos.close();
   }
 }
