@@ -12,7 +12,7 @@ class palindrom {
 		for (int dol = length - 1; dol >= 0; dol--) //obrne string
 			obr = obr + num.charAt(dol);
 		
-		if (num.equals(obr)) //primerja osnoven in obrnjen string
+		if (num.equals(obr)) //primerja osnoven in obrnjen string, uporabi .equals da primerja stringe
 			System.out.println("Je palindrom");
 		else
 			System.out.println("Ni palindrom");
