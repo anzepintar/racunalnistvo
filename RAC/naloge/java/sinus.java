@@ -6,7 +6,7 @@ public class sinus {
 		kot = Math.PI / 3;
 		f = 1;
 		sin = 0;
-		for (int n = 0; n < 4; n++) {
+		for (int n = 0; n < 5; n++) {
 			m = 2 * n + 1;
 			for (int k = 1; k <= m; k++) {
 				f *= k;
