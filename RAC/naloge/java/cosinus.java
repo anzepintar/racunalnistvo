@@ -6,7 +6,7 @@ public class cosinus {
 		x = Math.PI / 3,
 		fakulteta = 1;
 		cos = 0;
-		for (int n = 0; n<6; n++) {
+		for (int n = 0; n<5; n++) {
 			m = 2 * n;
 			for (int k = 1; k <= m; k++) {
 				fakulteta *= k;
