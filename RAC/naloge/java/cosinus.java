@@ -1,23 +1,19 @@
 package naloge;
-
 public class cosinus {
 
 	public static void main(String[] args) {
-		double kot, m, f, cos1;
-		kot = Math.PI / 3;
-		f = 1;
-		cos1 = 0;
-		for (int n = 0; n <= 5; n++) {
+		double m, f, cos,
+		kot = Math.PI / 3,
+		fakulteta = 1;
+		cos = 0;
+		for (int n = 0; n<5; n++) {
 			m = 2 * n;
 			for (int k = 1; k <= m; k++) {
-				f *= k;
+				fakulteta *= k;
 			}
-			double tmp = (Math.pow(-1, n) / f) * Math.pow(kot, m);
-			cos1 += tmp;
+			cos += (Math.pow(-1, n) / fakulteta) * Math.pow(kot, m);
 		}
-		System.out.println(cos1);
+		System.out.println(cos);
 		System.out.println(Math.cos(kot));
-
 	}
-
 }
