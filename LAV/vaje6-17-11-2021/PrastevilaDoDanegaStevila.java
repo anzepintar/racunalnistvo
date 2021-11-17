@@ -1,12 +1,10 @@
-package sola;
-
 import java.util.Scanner;
 
 class PrastevilaDoDanegaStevila {
 	public static void main(String args[]) {
 		int stPrastevil;
-		boolean je = true;
 		int stevilo = 3;
+		boolean je = true;
 		Scanner vnos = new Scanner(System.in);
 		System.out.println("Vnesi število:");
 		stPrastevil = vnos.nextInt();
