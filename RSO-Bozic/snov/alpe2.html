@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <font face="Georgia">
     <table>
         <table width="15%" align="left" border="0">
             <tr align="center">
@@ -71,9 +72,14 @@
                         <input type="radio" id="da" name="dane" value="Da" required>Da
                         <input type="radio" id="ne" name="dane" value="Ne">Ne<br>
                         <p>Na kratko opišite predloge za izboljšavo:</p>
-                        <textarea cols="50" id="predlogi" name="predlogi" placeholder="Izboljšati bi želel..." maxlength="5000" style="max-width: fit-content; min-width: fit-content;"></textarea>
+                        <textarea style="resize:none" cols="50" rows="6" id="predlogi" name="predlogi" placeholder="Izboljšati bi želel..." maxlength="5000" ></textarea>
                          <br>
-
+                         <p>Vpišite vaš email naslov za nadalnji kontakt</p>
+                         <input type="email" id="email" name="email" placeholder="mail@example.com">
+                         <br>
+                         <br>
+                         <input type="checkbox" value="Strinjam se"  required checked>Strinjam se z obdelavo mojih osebnoih podatkov
+                         <br>
                         <input type="submit" value="Pošlji">
 
 
@@ -1297,5 +1303,5 @@
         </table>
     </table>
 </body>
-
+</font>
 </html>
