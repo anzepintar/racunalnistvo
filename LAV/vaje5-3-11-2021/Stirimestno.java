@@ -1,4 +1,4 @@
-package sola;
+
 /*Sestavi program Stirimestno, ki bo prebral štirimestno naravno število. Nato naj zamenja prvo in
 zadnjo števko, drugo in tretjo pa kvadrira in ohrani samo enice kvadrata. Na koncu naj izpiše dobljeno
 število.*/

@@ -1,4 +1,3 @@
-package sola;
 
 public class Fakulteta {
 

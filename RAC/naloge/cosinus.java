@@ -2,7 +2,7 @@ package naloge;
 public class cosinus {
 
 	public static void main(String[] args) {
-		double m, f, cos,
+		double m, cos,
 		kot = Math.PI / 3,
 		fakulteta = 1;
 		cos = 0;

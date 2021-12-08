@@ -1,4 +1,3 @@
-package sola;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package sola;
+
 /*Sestavi program Obrni, ki bo obrnil dano štirimestno naravno število. Iz števila 1234 mora sestaviti
 število 4321. Obrnjeno število tudi izpiši.*/
 import java.util.Scanner;

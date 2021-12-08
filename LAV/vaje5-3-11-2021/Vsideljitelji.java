@@ -1,4 +1,4 @@
-package sola;
+
 
 public class Vsideljitelji {
 	public static void main(String[] args) {

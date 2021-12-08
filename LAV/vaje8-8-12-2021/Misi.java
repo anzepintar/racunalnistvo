@@ -1,4 +1,3 @@
-package sola;
 
 public class Misi {
 	public static void main(String[] args) {

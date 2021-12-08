@@ -1,8 +1,6 @@
-package sola;
-
 import java.util.Scanner;
 
-public class Kalkulator {
+public class kalkulator {
 
 	public static void main(String[] args) {
 

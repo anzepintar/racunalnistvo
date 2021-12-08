@@ -1,4 +1,4 @@
-package sola;
+
 
 public class Sestevanjestevil1do100 {
 

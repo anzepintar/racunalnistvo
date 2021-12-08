@@ -1,4 +1,4 @@
-package sola;
+
 
 public class Kipci {
 

@@ -1,4 +1,4 @@
-package sola;
+
 
 public class Lihastminus10do10 {
 

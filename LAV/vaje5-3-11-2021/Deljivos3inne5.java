@@ -1,4 +1,4 @@
-package sola;
+
 
 public class Deljivos3inne5 {
 

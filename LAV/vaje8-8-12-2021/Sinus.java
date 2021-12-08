@@ -1,5 +1,3 @@
-package sola;
-
 public class Sinus {
 
 	public static void main(String[] args) {
