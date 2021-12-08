@@ -3,7 +3,7 @@ zadnjo števko, drugo in tretjo pa kvadrira in ohrani samo enice kvadrata. Na ko
 število.*/
 import java.util.Scanner;
 
-public class Stirimestno {
+public class stirimestnost {
 
 	public static void main(String[] args) {
 		Scanner vnos = new Scanner(System.in);

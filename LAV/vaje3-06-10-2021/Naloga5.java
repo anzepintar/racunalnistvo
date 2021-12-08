@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Naloga1 {
+public class Naloga5 {
 
 	public static void main(String[] args) {
 		Scanner vnos = new Scanner(System.in);
