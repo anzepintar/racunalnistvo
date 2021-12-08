@@ -1,3 +1,4 @@
+package naloge;
 public class metKock1 {
 
 	public static void main(String[] args) {

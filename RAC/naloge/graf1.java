@@ -1,3 +1,4 @@
+package naloge;
 class graf1 {
   public static void main(String[] args) {
     double y = 0;

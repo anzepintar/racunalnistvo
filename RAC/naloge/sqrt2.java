@@ -1,3 +1,4 @@
+package naloge;
 public class sqrt2 {
     public static void main(String[] args) {
         double sum = 1.0, x = 1, y = 1, tmp, i = 0;

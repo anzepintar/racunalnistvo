@@ -1,3 +1,4 @@
+package naloge;
 import java.util.Scanner;
 
 class palindrom {
