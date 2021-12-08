@@ -32,7 +32,7 @@ public class Naloga1 {
 		String s1 = vnos.nextLine();
 		vnos.next();
 		System.out.println(c1 + " " + b1 + " " + i1 + " " + l1 + " " + f1 + " " + d1 + " " + bo1 + " " + s1);
-		
+		vnos.close();
 
 	}
 

@@ -8,7 +8,7 @@ public class ProduktNenicelnihStevk {
 		while(n>0)
 		{
 			int zadnja = n % 10;
-			
+			zadnja = zadnja + produkt;
 		}
 	}
 

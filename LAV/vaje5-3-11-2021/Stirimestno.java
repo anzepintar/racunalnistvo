@@ -20,6 +20,7 @@ public class Stirimestno {
 		int kvadratDesetice = ((desetica/10)*(desetica/10)) % 10;
 		
 		System.out.println(enica*1000+kvadratStotice*100+kvadratDesetice*10+tisocica/1000);
-	}
+    vnos.close();
+  }
 
 }

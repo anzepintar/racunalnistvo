@@ -44,6 +44,7 @@ public class kalkulator {
 				System.out.println("Kalkulator podpira samo operatorje +, -, *, /");
 				break;
 		}
+    vnos.close();
 
 	}
 

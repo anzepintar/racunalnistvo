@@ -22,5 +22,6 @@ public class Obrni {
 		num1 = num1 / 10;
 
 		System.out.println(obr);
+    vnos.close();
 	}
 }
