@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Naloga5",
+      "request": "launch",
+      "mainClass": "Naloga5",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
       "name": "Launch stirimestnost",
       "request": "launch",
       "mainClass": "stirimestnost",
