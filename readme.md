@@ -1,1 +1,3 @@
-Snov in domače naloge predmetov RAČ, RSO in LAV
+## Getting Started
+
+Posodobljena verzija reposotorija šolskih nalog
