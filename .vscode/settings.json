@@ -1,5 +1,4 @@
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
-    "java.format.settings.url": "eclipse-formatter.xml"
 }
