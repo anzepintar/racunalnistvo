@@ -1,4 +1,4 @@
-package sola;
+package LAV.vaje09;
 
 public class preverjanje2 {
 
