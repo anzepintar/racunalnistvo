@@ -1,7 +1,5 @@
 package Racunalnistvo.java;
 
-
-
 public class Bisekcija1 {
 
 	public static void main(String[] args) {
