@@ -13,10 +13,10 @@ public class trikotnik2 {
 		}
 		else {
 			if((a+b)==c || (a+c)==b || (b+c)==a) {
-				System.out.println("Trikotnik je izrojen");
+				System.out.println("Trikotnik je izrojen.");
 			}
 			else {
-			System.out.println("Trikotnik ne obstaja");
+			System.out.println("Trikotnik ne obstaja.");
 			}
 		}
 	}
