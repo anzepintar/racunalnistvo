@@ -1,3 +1,3 @@
-## Getting Started
+## Repo šolskih nalog
 
-Posodobljena verzija reposotorija šolskih nalog
+Repo šolskih nalog
