@@ -8,6 +8,7 @@ public class Zaporedje1 {
     Scanner vnos = new Scanner(System.in);
     System.out.println("Vpiši število:");
     int num = vnos.nextInt();
+    vnos.close();
     while (num > 1) {
       if (num % 2 == 0)
         num /= 2;
@@ -15,8 +16,7 @@ public class Zaporedje1 {
         num = num * 3 + 1;
       System.out.println(num);
     }
-    System.out.println(num);
-    vnos.close();
+    
 
   }
 
