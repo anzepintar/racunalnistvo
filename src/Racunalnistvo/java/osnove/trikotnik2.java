@@ -1,4 +1,4 @@
-package Racunalnistvo.java;
+package Racunalnistvo.java.osnove;
 public class trikotnik2 {
 	public static void main(String[] args) {
 		float a = 5;

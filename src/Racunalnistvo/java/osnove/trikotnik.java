@@ -1,4 +1,4 @@
-package Racunalnistvo.java;
+package Racunalnistvo.java.osnove;
 import java.util.Scanner;
 
 class trikotnik {

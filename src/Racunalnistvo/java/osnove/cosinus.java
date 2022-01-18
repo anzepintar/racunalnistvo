@@ -1,4 +1,4 @@
-package Racunalnistvo.java;
+package Racunalnistvo.java.osnove;
 public class cosinus {
 
 	public static void main(String[] args) {

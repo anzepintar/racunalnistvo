@@ -1,4 +1,4 @@
-package Racunalnistvo.java;
+package Racunalnistvo.java.osnove;
 class graf2 {
   public static void main(String[] args) {
      double y = 0;
