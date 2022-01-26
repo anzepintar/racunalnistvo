@@ -8,11 +8,11 @@ class minolovec {
 		Random r = new Random();
 		int stBomb = 20;
 		for (int i = 0; i < stBomb; i++) {
-			int vrstica = r.nextInt(colNum);
-			int stolpec = r.nextInt(rowNum);
-			if (tab[vrstica][stolpec] == 9)
+			int row = r.nextInt(colNum);
+			int col = r.nextInt(rowNum);
+			if (tab[row][col] == 9)
 				i--;
-			tab[vrstica][stolpec] = 9;
+			tab[row][col] = 9;
 		}
 		// klic metode printTab
 		printTab(tab);
