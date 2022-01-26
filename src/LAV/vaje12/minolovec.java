@@ -4,7 +4,7 @@ class minolovec {
 	public static void main(String[] args) {
 		int colNum = 20, rowNum = 20;
 		int[][] tab = new int[colNum][rowNum];
-		printTab(tab);
+
 		Random r = new Random();
 		int stBomb = 20;
 		for (int i = 0; i < stBomb; i++) {
