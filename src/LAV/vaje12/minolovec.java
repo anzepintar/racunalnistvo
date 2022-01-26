@@ -1,3 +1,5 @@
+package LAV.vaje12;
+
 import java.util.Random;
 
 class minolovec {
