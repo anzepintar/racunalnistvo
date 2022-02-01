@@ -38,8 +38,7 @@ class sudokuChecker {
     for (int i = 0; i < 9; i += 3)
       for (int j = 0; j < 9; j += 3)
         for (int pozicija = 0; pozicija < 8; pozicija++)
-          for (int pozicija2 = pozicija
-              + 1; pozicija2 < 9; pozicija2++)
+          for (int pozicija2 = pozicija + 1; pozicija2 < 9; pozicija2++)
             if (sudoku[i + pozicija % 3][j + pozicija / 3] == sudoku[i + pozicija2 % 3][j + pozicija2 / 3]) {
               pravilno = false;
               System.out.println("Eden izmed kvadratkov ni pravilen");
