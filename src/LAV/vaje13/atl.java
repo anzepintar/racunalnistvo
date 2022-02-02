@@ -2,21 +2,24 @@ public class atl {
   public static void main(String[] args) {
     int r[][] = new int[12][6];
     int vsota = 0;
-    double meti = 0;
+    double stmetov = 0;
+
     filltab(r);
 
     printTab(r);
+
     for (int i = 0; i < r[0].length; i++) {
       for (int j = 0; j < r.length; j++) {
         if (r[j][i] > 0) {
           vsota = vsota + r[j][i];
-          meti++;
+          stmetov++;
         }
       }
-      povprecjeSerije(i, vsota, meti);
-      meti = 0;
+      povprecjeSerije(i, vsota, stmetov);
+      stmetov = 0;
       vsota = 0;
     }
+
   }
 
   public static void filltab(int[][] r) {
