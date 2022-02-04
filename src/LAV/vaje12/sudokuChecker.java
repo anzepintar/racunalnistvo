@@ -1,4 +1,4 @@
-package LAV.vaje12.sudoku;
+package LAV.vaje12;
 
 class sudokuChecker {
 

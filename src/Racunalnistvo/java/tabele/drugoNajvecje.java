@@ -3,13 +3,13 @@ package Racunalnistvo.java.tabele;
 public class drugoNajvecje {
   public static void main(String[] args) {
     int tab[][] = {
-        { 1, -7, -1, 7, 5, 9 },
-        { 2, -5, 1, 1, 7, -9 },
-        { 3, -6, 1, -7, 8, 1 },
-        { 4, 1, 1, -2, -8, 4 }
+        { -1, -7, -1, -7, -5, -9 },
+        { -2, -5, -1, -1, -7, -9 },
+        { -3, -6, -1, -7, -8, -1 },
+        { -4, -1, -1, -2, -8, -4 }
     };
-    int max1 = 0;
-    int max2 = 0;
+    int max1 = tab[0][0];
+    int max2 = tab[0][0];
     int tempmax2 = 0;
 
     for (int i = 0; i < tab.length; i++) {
