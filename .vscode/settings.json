@@ -1,4 +1,5 @@
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
+    "livePreview.defaultPreviewPath": "/src/Sistemi/datoteke/index.html",
 }

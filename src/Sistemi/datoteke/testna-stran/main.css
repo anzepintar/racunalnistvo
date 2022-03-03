@@ -1,0 +1,67 @@
+h1 {
+  color: #d82929;
+  background-color: #111111;
+  margin: 10px 10px 10px 10px; /*zgoraj desno spodaj levo*/
+}
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "🍐";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em;
+  margin-left: -1em;
+}
+
+body {
+  font-size: 20px;
+}
+
+li {
+  font-size: 16px;
+}
+p {
+  text-align: justify;
+  max-width: 80%;
+}
+
+.main-content{
+  display: flex;
+  /**/
+  text-align: center
+}
+
+/* #example{
+  max-width: 100%;
+  display: flex;
+} */
+
+#div-before, #div-after {
+ background-color:#8888dd;
+ color:#000000;
+}
+#div-1 {
+ background-color:#000000;
+ color:#ffffff;
+}
+#div-1-padding {
+ padding:10px;
+}
+#div-1a {
+ background-color:#dd3333;
+ color:#ffffff;
+}
+#div-1b {
+ background-color:#33dd33;
+ color:#ffffff;
+}
+#div-1c {
+ background-color:#3333dd;
+ color:#ffffff;
+}
+#example div p {
+ margin:0 .25em;
+ padding:.25em 0;
+}
