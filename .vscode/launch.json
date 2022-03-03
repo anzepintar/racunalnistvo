@@ -1,0 +1,609 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Naloga5",
+      "request": "launch",
+      "mainClass": "LAV.vaje03.Naloga5",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch kalkulator",
+      "request": "launch",
+      "mainClass": "LAV.vaje03.kalkulator",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Obrni",
+      "request": "launch",
+      "mainClass": "LAV.vaje04.Obrni",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch stirimestnost",
+      "request": "launch",
+      "mainClass": "LAV.vaje04.stirimestnost",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Abeceda",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Abeceda",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Deljivos3",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Deljivos3",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Deljivos3inne5",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Deljivos3inne5",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch DneviVMesecu",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.DneviVMesecu",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Kalkulator",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Kalkulator",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Kipci",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Kipci",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Lihastminus10do10",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Lihastminus10do10",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Naloga1",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Naloga1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Obrni(1)",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Obrni",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sestevanjestevil1do100",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Sestevanjestevil1do100",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Stirimestno",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Stirimestno",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Vsideljitelji",
+      "request": "launch",
+      "mainClass": "LAV.vaje05.Vsideljitelji",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrastevilaDoDanegaStevila",
+      "request": "launch",
+      "mainClass": "LAV.vaje06.PrastevilaDoDanegaStevila",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrfektnaStevila",
+      "request": "launch",
+      "mainClass": "LAV.vaje07.PrfektnaStevila",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch ProduktNenicelnihStevk",
+      "request": "launch",
+      "mainClass": "LAV.vaje07.ProduktNenicelnihStevk",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch SahovskoPolje",
+      "request": "launch",
+      "mainClass": "LAV.vaje07.SahovskoPolje",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch ZvezdiceKvadrat",
+      "request": "launch",
+      "mainClass": "LAV.vaje07.ZvezdiceKvadrat",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch ZvezdiceTrikotnik",
+      "request": "launch",
+      "mainClass": "LAV.vaje07.ZvezdiceTrikotnik",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fakulteta",
+      "request": "launch",
+      "mainClass": "LAV.vaje08.Fakulteta",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibonaci",
+      "request": "launch",
+      "mainClass": "LAV.vaje08.Fibonaci",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch LeibnizovaFormulaZaPi",
+      "request": "launch",
+      "mainClass": "LAV.vaje08.LeibnizovaFormulaZaPi",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Lotokombinacije",
+      "request": "launch",
+      "mainClass": "LAV.vaje08.Lotokombinacije",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Misi",
+      "request": "launch",
+      "mainClass": "LAV.vaje08.Misi",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sinus",
+      "request": "launch",
+      "mainClass": "LAV.vaje08.Sinus",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Zaporedje1",
+      "request": "launch",
+      "mainClass": "LAV.vaje08.Zaporedje1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch preverjanje1",
+      "request": "launch",
+      "mainClass": "LAV.vaje09.preverjanje1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch preverjanje1v2",
+      "request": "launch",
+      "mainClass": "LAV.vaje09.preverjanje1v2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch preverjanje2",
+      "request": "launch",
+      "mainClass": "LAV.vaje09.preverjanje2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch preverjanje3",
+      "request": "launch",
+      "mainClass": "LAV.vaje09.preverjanje3",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch preverjanje4",
+      "request": "launch",
+      "mainClass": "LAV.vaje09.preverjanje4",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch preverjanje5",
+      "request": "launch",
+      "mainClass": "LAV.vaje09.preverjanje5",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch sah",
+      "request": "launch",
+      "mainClass": "LAV.vaje09.sah",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga1",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga11",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga11",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga12",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga12",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga13",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga13",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga2",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga3",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga3",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga6",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga6",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga9",
+      "request": "launch",
+      "mainClass": "LAV.vaje10.naloga9",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch tabela2d",
+      "request": "launch",
+      "mainClass": "LAV.vaje11.tabela2d",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch minolovec",
+      "request": "launch",
+      "mainClass": "LAV.vaje12.minolovec",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch minolovec2",
+      "request": "launch",
+      "mainClass": "LAV.vaje12.minolovec2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch sudokuChecker",
+      "request": "launch",
+      "mainClass": "LAV.vaje12.sudokuChecker",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch atl",
+      "request": "launch",
+      "mainClass": "LAV.vaje13.atl",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch crkovnaUganka",
+      "request": "launch",
+      "mainClass": "LAV.vaje13.crkovnaUganka",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch napolnitevTabele",
+      "request": "launch",
+      "mainClass": "LAV.vaje13.napolnitevTabele",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch teoreticnaTabela",
+      "request": "launch",
+      "mainClass": "LAV.vaje13.teoreticnaTabela",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch teoreticnaTabela2",
+      "request": "launch",
+      "mainClass": "LAV.vaje13.teoreticnaTabela2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga1(1)",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.naloga1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga2(1)",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.naloga2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga3(1)",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.naloga3",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga4",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.naloga4",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga5",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.naloga5",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga6(1)",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.naloga6",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga7",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.naloga7",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch temp2",
+      "request": "launch",
+      "mainClass": "LAV.vaje14.temp2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch nizi",
+      "request": "launch",
+      "mainClass": "LAV.vaje15.nizi",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga1(2)",
+      "request": "launch",
+      "mainClass": "LAV.vaje16.naloga1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch strings",
+      "request": "launch",
+      "mainClass": "LAV.vaje16.strings",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bisekcija1",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.Bisekcija1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bisekcija2",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.Bisekcija2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch BisekcijaTest",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.BisekcijaTest",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch cosinus",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.cosinus",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch diagonala",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.diagonala",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch graf1",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.graf1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch graf2",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.graf2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch metKock1",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.metKock1",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch metKock2",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.metKock2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch palindrom",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.palindrom",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch sinus",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.sinus",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch sqrt2",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.sqrt2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch trikotnik",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.trikotnik",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch trikotnik2",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.osnove.trikotnik2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch TableIzSlike",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.tabele.TableIzSlike",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch bubbleSort",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.tabele.bubbleSort",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch drugoNajvecje",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.tabele.drugoNajvecje",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch izbiranje",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.tabele.izbiranje",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch sSortiranjeZVstavljanjem",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.tabele.sSortiranjeZVstavljanjem",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch sortiranjeV1Tabeli",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.tabele.sortiranjeV1Tabeli",
+      "projectName": "racunalnistvo_cb7eb79a"
+    },
+    {
+      "type": "java",
+      "name": "Launch sortiranjeZvsavljanjem2",
+      "request": "launch",
+      "mainClass": "Racunalnistvo.java.tabele.sortiranjeZvsavljanjem2",
+      "projectName": "racunalnistvo_cb7eb79a"
+    }
+  ]
+}
