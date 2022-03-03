@@ -1,3 +1,2 @@
 bin/
-out/
-.idea/
+*.code-workspace
