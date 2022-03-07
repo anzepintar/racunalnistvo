@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+  ],
+  "settings": {
+    "java.project.sourcePaths": [
+      "LAV",
+      "RAC"
+    ],
+    "java.project.outputPath": "bin",
+    "conventionalCommits.scopes": [
+      "Repo"
+    ]
+  }
+}
