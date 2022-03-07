@@ -1,0 +1,42 @@
+h1 {
+  color: blue;
+  background-color: #ffa500;
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  max-width: 100px;
+  /*background-color: #000000;*/
+}
+
+.desno {
+  display: flex;
+  justify-content: end;
+}
+
+.desno div {
+  background-color: #ffff00;
+}
+
+.levo {
+  display: flex;
+  justify-content: start;
+}
+
+.levo div {
+  background-color: #ff0000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.center div {
+  background-color: #00ffff;
+}
