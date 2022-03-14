@@ -1,58 +1,19 @@
-div {
-  background-color: hsl(138, 76%, 72%);
-  border: 1px solid;
-  padding: 10px;
+:root {
+  --main-color: #a63700;
 }
 
-.navbar-main {
-  display: flex;
-  /*align-items: center;*/
-  /*justify-content: space-around;*/
+body {
+  margin: 0;
+  padding: 0;
 }
-body::before {
-  content: "";
-  position: fixed;
-  top: -10px;
-  left: 0;
-  width: 100%;
-  height: 10px;
-  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
-  z-index: 100;
+h1{
+  font-size: 40px;
+}
+h2{
+  text-transform: uppercase;
+}
+.top-navbar{
+  text-transform: uppercase;
 }
 
 
-.navbar-main li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 5px;
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: space-around;*/
-}
-.navbar-main li:hover {
-  background-color: red;
-  
-}
-
-.header-top {
-  display: flex;
-}
-.header-left {
-  width: 50%;
-  flex: 1;
-}
-.header-right {
-  width: 50%;
-  flex: 2;
-}
-
-.title {
-  background-color: hsl(60, 61%, 47%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.pomembno {
-  text-align: justify;
-  background-color: rgb(241, 207, 144);
-}
