@@ -1,6 +1,7 @@
 body {
   font: 24px "Helvetica";
   background: #999999;
+  cursor: crosshair;
 }
 #main {
   min-height: 800px;

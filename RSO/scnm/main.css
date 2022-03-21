@@ -6,14 +6,20 @@ body {
   margin: 0;
   padding: 0;
 }
-h1{
+h1 {
   font-size: 40px;
 }
-h2{
+h2 {
   text-transform: uppercase;
 }
-.top-navbar{
+
+.bottom .top-navbar li {
   text-transform: uppercase;
+  display: inline;
+  list-style: none;
+  background: var(--main-color);
+  padding: 10px;
+  margin: -2px;
 }
 
 

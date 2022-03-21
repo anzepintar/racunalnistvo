@@ -13,5 +13,15 @@
     "conventionalCommits.scopes": [
       "Repo"
     ]
+  },
+  "launch": {
+    "configurations": [
+      {
+        "name": "Launch Microsoft Edge and open the Edge DevTools",
+        "request": "launch",
+        "type": "vscode-edge-devtools.debug",
+        "url": ""
+      }
+    ]
   }
 }
