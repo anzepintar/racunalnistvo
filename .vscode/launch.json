@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch odstraniPresledke",
+      "request": "launch",
+      "mainClass": "vaje18.odstraniPresledke",
+      "projectName": "racunalnistvo_db50e2e7"
+    },
+    {
+      "type": "java",
+      "name": "Launch naloga",
+      "request": "launch",
+      "mainClass": "vaje18.naloga",
+      "projectName": "racunalnistvo_db50e2e7"
+    },
+    {
+      "type": "java",
+      "name": "Launch anagram",
+      "request": "launch",
+      "mainClass": "vaje18.anagram",
+      "projectName": "racunalnistvo_db50e2e7"
+    },
+    {
+      "type": "java",
+      "name": "Launch papajscina",
+      "request": "launch",
+      "mainClass": "vaje18.papajscina",
+      "projectName": "racunalnistvo_db50e2e7"
+    },
+    {
+      "name": "Launch Microsoft Edge and open the Edge DevTools",
+      "request": "launch",
+      "type": "vscode-edge-devtools.debug",
+      "url": ""
+    }
+  ]
+}
