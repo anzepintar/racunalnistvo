@@ -1,25 +1,11 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
+  "folders": [
+    {
+      "path": "."
+    }
   ],
   "settings": {
-    "java.project.sourcePaths": [
-      "LAV",
-      "RAC"
-    ],
-    "java.project.outputPath": "bin",
-  },
-  "launch": {
-    "configurations": [
-      {
-        "name": "Launch Microsoft Edge and open the Edge DevTools",
-        "request": "launch",
-        "type": "vscode-edge-devtools.debug",
-        "url": "",
-        "webRoot": "${workspaceFolder}/RSO/scnm",
-      }
-    ]
+    "java.project.sourcePaths": ["LAV", "RAC"],
+    "java.project.outputPath": "bin"
   }
 }
