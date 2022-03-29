@@ -46,15 +46,16 @@ h2 {
 }
 .header .bottom .navbar {
   background-color: var(--main-color);
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
 }
 .header .bottom .navbar li {
   text-transform: uppercase;
-  display: inline;
   list-style: none;
+  padding-left: 0px;
   background: var(--main-color);
   padding: 10px;
-  margin: 2px;
   color: var(--white);
 }
 
@@ -62,6 +63,87 @@ h2 {
   background-color: var(--secondary-color);
 }
 
+/*leva strani
+
+
+
+..................*/
+.main .left {
+  max-width: 300px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.main .left .links {
+  max-width: 250px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .left .links ul {
+  list-style: none;
+  padding: 10px;
+}
+.main .left .links li {
+  padding: 10px;
+}
+
+/*barve orginizacijskih enot*/
+.main .left .links .top li:nth-child(1) {
+  background-color: var(--main-color);
+  color: var(--white);
+}
+
+.main .left .links .top li:nth-child(2):hover {
+  background-color: #0057b8;
+  color: var(--white);
+}
+.main .left .links .top li:nth-child(3):hover {
+  background-color: #009639;
+  color: var(--white);
+}
+.main .left .links .top li:nth-child(4):hover {
+  background-color: #e5a200;
+  color: var(--white);
+}
+.main .left .links .top li:nth-child(5):hover {
+  background-color: #ffd30a;
+  color: var(--white);
+}
+.main .left .links .top li:nth-child(6):hover {
+  background-color: #009fdf;
+  color: var(--white);
+}
+.main .left .links .top li:nth-child(7):hover {
+  background-color: #009639;
+  color: var(--white);
+}
+.main .left .links .top li:nth-child(8):hover {
+  background-color: #8094dd;
+  color: var(--white);
+}
+
+.main .left .links .mid li:nth-child(1) {
+  background-color: var(--main-color);
+  color: var(--white);
+}
+
+.main .left .links .bottom {
+  background-color: var(--white);
+  max-width: 150px;
+  padding: 0px;
+}
+
+.main .left .links .bottom img {
+  width: 150px;
+  padding: 0px;
+}
+
+/*Google map*/
 .map {
   position: relative;
   text-align: right;
