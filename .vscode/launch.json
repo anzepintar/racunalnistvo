@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "vaje19.Ulomek.Main",
+      "projectName": "racunalnistvo_db50e2e7"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "vaje19.Znamka.Main",
+      "projectName": "racunalnistvo_db50e2e7"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "vaje19.Main",
+      "projectName": "racunalnistvo_db50e2e7"
+    },
+    {
+      "type": "java",
       "name": "Launch odstraniPresledke",
       "request": "launch",
       "mainClass": "vaje18.odstraniPresledke",

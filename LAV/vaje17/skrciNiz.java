@@ -22,6 +22,7 @@ public class skrciNiz {
         }
       }
     }
+    System.out.println(result);
   }
 
 }
