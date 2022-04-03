@@ -4,7 +4,22 @@
   --white: #ffffff;
 }
 
+/*font za vse elemente*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: Helvetica, Arial, sans-serif !important;
+  color: #222222;
+}
+
 body {
+  margin: 0;
+  padding: 0;
   margin: 0;
   padding: 0;
 }
@@ -27,7 +42,7 @@ h2 {
   transform: rotate(-15deg);
   box-shadow: 0px 8px 20px black;
   margin-left: 300px;
-  margin-top: -150px;
+  margin-top: 30px;
 }
 .header .top {
   height: 100px;
@@ -51,11 +66,14 @@ h2 {
   padding: 0px;
 }
 .header .bottom .navbar li {
-  text-transform: uppercase;
   list-style: none;
   padding-left: 0px;
   background: var(--main-color);
   padding: 10px;
+}
+
+.header .bottom .navbar li a {
+  text-transform: uppercase;
   color: var(--white);
 }
 
@@ -63,94 +81,141 @@ h2 {
   background-color: var(--secondary-color);
 }
 
+.main .content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
 /*leva strani
 
 
 
 ..................*/
-.main .left {
-  max-width: 300px;
+.main .content .left {
+  width: 400px;
   background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top:25px;
-  padding-bottom:25px;
+  flex-wrap: nowrap;
 }
-.main .left .links {
-  max-width: 250px;
+.main .content .left .links {
   background-color: var(--white);
+  align-self: center;
   display: flex;
+  width: 300px;
+  gap: 10px 0px;
+  padding: 0px;
+  margin: 0px;
   flex-direction: column;
-  align-items: center;
 }
-.main .left .links ul {
+.main .content .left .links ul {
+  padding: 0px;
+  margin: 0px;
+}
+.main .content .left .links ul li {
   list-style: none;
-  padding: 10px;
 }
-.main .left .links li {
+
+.main .content .left .links .top li a {
+  display: block;
   padding: 10px;
 }
 
 /*barve orginizacijskih enot*/
-.main .left .links .top li:nth-child(1) {
+.main .content .left .links .top li:nth-child(1) a {
   background-color: var(--main-color);
   color: var(--white);
+  cursor: pointer;
 }
-
-.main .left .links .top li:nth-child(2):hover {
+.main .content .left .links .top li:nth-child(2) a:hover {
   background-color: #0057b8;
-  color: var(--white);
 }
-.main .left .links .top li:nth-child(3):hover {
+
+.main .content .left .links .top li:nth-child(3) a:hover {
   background-color: #009639;
-  color: var(--white);
 }
-.main .left .links .top li:nth-child(4):hover {
+
+.main .content .left .links .top li:nth-child(4) a:hover {
   background-color: #e5a200;
-  color: var(--white);
 }
-.main .left .links .top li:nth-child(5):hover {
+
+.main .content .left .links .top li:nth-child(5) a:hover {
   background-color: #ffd30a;
-  color: var(--white);
 }
-.main .left .links .top li:nth-child(6):hover {
+
+.main .content .left .links .top li:nth-child(6) a:hover {
   background-color: #009fdf;
-  color: var(--white);
 }
-.main .left .links .top li:nth-child(7):hover {
+
+.main .content .left .links .top li:nth-child(7) a:hover {
   background-color: #009639;
-  color: var(--white);
 }
-.main .left .links .top li:nth-child(8):hover {
+
+.main .content .left .links .top li:nth-child(8) a:hover {
   background-color: #8094dd;
+}
+
+.main .content .left .links .top li a {
+  text-decoration: none;
+}
+
+.main .content .left .links .top li a:hover {
   color: var(--white);
 }
 
-.main .left .links .mid li:nth-child(1) {
+.main .content .left .links .mid li {
+  padding: 10px;
+}
+
+.main .content .left .links .mid li a {
+  text-decoration: none;
+}
+
+.main .content .left .links .mid li a:hover {
+  text-decoration: underline;
+}
+
+.main .content .left .links .mid li:nth-child(1) {
   background-color: var(--main-color);
+  cursor: pointer;
+}
+.main .content .left .links .mid li:nth-child(1) a {
   color: var(--white);
 }
 
-.main .left .links .bottom {
+.main .content .left .links .bottom {
   background-color: var(--white);
-  max-width: 150px;
   padding: 0px;
 }
 
-.main .left .links .bottom img {
-  width: 150px;
-  padding: 0px;
+.main .content .left .links .bottom img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*
+
+desna 
+
+
+
+stran
+
+*/
+
+.main .content .right {
+  width: 900px;
 }
 
 /*Google map*/
-.map {
+.main .content .right .map {
   position: relative;
   text-align: right;
   height: 500px;
   width: 600px;
 }
-.map-canvas {
+.main .content .right .map .canvas {
   overflow: hidden;
   background: none !important;
   height: 500px;
