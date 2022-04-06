@@ -12,6 +12,10 @@ public class Ulomek {
     this.im = im;
   }
 
+  public Ulomek(int k) {
+    System.out.println(k + " / " + 1);
+  }
+
   public void izpis() {
     System.out.println(st + "/" + im);
   }
@@ -41,11 +45,21 @@ public class Ulomek {
   }
 
   public void krajsaj() {
-    int st = 0;
-    int im = 0;
 
-    System.out.println(this.st / this.im);
+    int maxDel = NajvecjiDelitelj(this.st, this.im);
+    System.out.println(this.st / maxDel + " / " + this.im / maxDel);
 
+  }
+
+  private int NajvecjiDelitelj(int a, int b) {
+    int maxDel = 1;
+    for (int i = 1; i <= Math.min(a, b); i++) {
+      if (a % i == 0 && b % i == 0) {
+        maxDel = i;
+      }
+    }
+
+    return maxDel;
   }
 
 }
