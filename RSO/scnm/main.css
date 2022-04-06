@@ -2,26 +2,23 @@
   --main-color: #a63700;
   --secondary-color: #531b00;
   --white: #ffffff;
+  --gray: #222222;
 }
 
-/*font za vse elemente*/
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-  font-family: Helvetica, Arial, sans-serif !important;
+
+/*div {
+  border: black solid 1px !important;
+  padding: 1px !important;
+}*/
+html{
+  font-family: Helvetica, Arial, sans-serif;
   color: #222222;
 }
-
 body {
   margin: 0;
   padding: 0;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  max-width: 65%;
 }
 h1 {
   font-size: 40px;
@@ -59,26 +56,51 @@ h2 {
 .header .top .right p {
   color: #edab65;
 }
+/*celotna navigacija*/
 .header .bottom .navbar {
   background-color: var(--main-color);
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-}
-.header .bottom .navbar li {
   list-style: none;
   padding-left: 0px;
-  background: var(--main-color);
-  padding: 10px;
 }
-
-.header .bottom .navbar li a {
-  text-transform: uppercase;
-  color: var(--white);
+.header .bottom .navbar li {
+  background: var(--main-color);
+  float: left;
+  display: block;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.7s;
 }
 
 .header .bottom .navbar li:hover {
-  background-color: var(--secondary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+}
+.header .bottom .navbar li a {
+  color: var(--white);
+  text-decoration: none;
+}
+.header .bottom .navbar li ul {
+  background-color: var(--main-color);
+  padding-left: 0px;
+  opacity: 0.5;
+  min-width: 100px;
+  position: absolute;
+  margin-top: 10px;
+  left: 0px;
+  display: none;
+}
+
+.header .bottom .navbar li:hover ul,
+.header .bottom .navbar li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.header .bottom .navbar li ul li {
+  clear: both;
+  width: 100%;
 }
 
 .main .content {
@@ -98,6 +120,9 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+.main .content .left .links a{
+  color:var(--gray);
 }
 .main .content .left .links {
   background-color: var(--white);
@@ -137,19 +162,19 @@ h2 {
 }
 
 .main .content .left .links .top li:nth-child(4) a:hover {
-  background-color: #e5a200;
+  background-color: #ef4a81;
 }
 
 .main .content .left .links .top li:nth-child(5) a:hover {
-  background-color: #ffd30a;
+  background-color: #e5a200;
 }
 
 .main .content .left .links .top li:nth-child(6) a:hover {
-  background-color: #009fdf;
+  background-color: #ffd30a;
 }
 
 .main .content .left .links .top li:nth-child(7) a:hover {
-  background-color: #009639;
+  background-color: #009fdf;
 }
 
 .main .content .left .links .top li:nth-child(8) a:hover {
@@ -182,6 +207,7 @@ h2 {
 }
 .main .content .left .links .mid li:nth-child(1) a {
   color: var(--white);
+  text-decoration: none;
 }
 
 .main .content .left .links .bottom {
