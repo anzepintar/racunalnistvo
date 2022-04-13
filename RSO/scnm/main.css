@@ -5,29 +5,28 @@
   --gray: #222222;
 }
 
-
 /*div {
   border: black solid 1px !important;
   padding: 1px !important;
 }*/
-html{
+html {
   font-family: Helvetica, Arial, sans-serif;
   color: #222222;
 }
 body {
-  margin: 0;
   padding: 0;
   margin: 0 auto;
-  max-width: 65%;
 }
 h1 {
-  font-size: 40px;
+  font-size: 24px;
 }
 h2 {
   text-transform: uppercase;
+  font-size: 22px;
 }
 
 #eID {
+  z-index: 1;
   border: 5px solid var(--main-color);
   border-radius: 20px;
   width: 100px;
@@ -38,97 +37,113 @@ h2 {
   background-color: var(--white);
   transform: rotate(-15deg);
   box-shadow: 0px 8px 20px black;
-  margin-left: 300px;
-  margin-top: 30px;
+  margin-left: 250px;
+  margin-top: 20px;
 }
 .header .top {
   height: 100px;
+  max-width: 900px;
+  margin: auto;
 }
 .header .top .left {
-  width: 300px;
+  width: 400px;
   float: left;
 }
 
 .header .top .right {
-  width: 300px;
+  width: 400px;
   float: right;
 }
 .header .top .right p {
   color: #edab65;
 }
 /*celotna navigacija*/
-.header .bottom .navbar {
+
+.header .bottom ul {
   background-color: var(--main-color);
   list-style: none;
   padding-left: 0px;
 }
-.header .bottom .navbar li {
+
+.header .bottom ul div{
+  max-width: 900px;
+  margin: auto;
+}
+.header .bottom ul li {
   background: var(--main-color);
-  float: left;
-  display: block;
+  display: inline-block;
   padding: 10px;
+  margin:0px;
+  min-width: 75px;
   position: relative;
   text-decoration: none;
   transition-duration: 0.7s;
 }
 
-.header .bottom .navbar li:hover {
+.header .bottom ul li:hover {
   background: var(--secondary-color);
   cursor: pointer;
 }
-.header .bottom .navbar li a {
+.header .bottom ul li a {
   color: var(--white);
   text-decoration: none;
 }
-.header .bottom .navbar li ul {
+.header .bottom ul li ul {
   background-color: var(--main-color);
   padding-left: 0px;
-  opacity: 0.5;
-  min-width: 100px;
+  min-width: 200px;
   position: absolute;
   margin-top: 10px;
   left: 0px;
   display: none;
 }
 
-.header .bottom .navbar li:hover ul,
-.header .bottom .navbar li ul:hover {
+.header .bottom ul li:hover ul,
+.header .bottom ul li ul:hover {
   visibility: visible;
-  opacity: 1;
   display: block;
 }
 
-.header .bottom .navbar li ul li {
+.header .bottom ul li ul li {
   clear: both;
   width: 100%;
 }
-
+/*main*/
+.main {
+  width: 900px;
+  margin: auto;
+}
 .main .content {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+}
+.main .image {
 }
 
+#image {
+  width: 100%;
+  height: auto;
+}
 /*leva strani
 
 
 
 ..................*/
 .main .content .left {
-  width: 400px;
+  width: 300px;
   background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 }
-.main .content .left .links a{
-  color:var(--gray);
+.main .content .left .links a {
+  color: var(--gray);
 }
 .main .content .left .links {
   background-color: var(--white);
   align-self: center;
   display: flex;
-  width: 300px;
+  width: 280px;
   gap: 10px 0px;
   padding: 0px;
   margin: 0px;
@@ -231,7 +246,7 @@ stran
 */
 
 .main .content .right {
-  width: 900px;
+  width: 600px;
 }
 
 /*Google map*/
