@@ -4,6 +4,14 @@
   --white: #ffffff;
   --gray: #222222;
 }
+/*
+@media (min-width: 1200px)
+1170 - content
+@media (min-width: 992px)
+970
+@media (min-width: 768px)
+750
+*/
 
 /*div {
   border: black solid 1px !important;
@@ -42,7 +50,7 @@ h2 {
 }
 .header .top {
   height: 100px;
-  max-width: 900px;
+  max-width: 1170px;
   margin: auto;
 }
 .header .top .left {
@@ -65,15 +73,15 @@ h2 {
   padding-left: 0px;
 }
 
-.header .bottom ul div{
-  max-width: 900px;
-  margin: auto;
+.header .bottom ul div {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .header .bottom ul li {
   background: var(--main-color);
   display: inline-block;
   padding: 10px;
-  margin:0px;
+  margin: 0px;
   min-width: 75px;
   position: relative;
   text-decoration: none;
@@ -110,8 +118,9 @@ h2 {
 }
 /*main*/
 .main {
-  width: 900px;
+  width: 1170px;
   margin: auto;
+  background-color: #fbfbfb;
 }
 .main .content {
   display: flex;
@@ -244,9 +253,27 @@ desna
 stran
 
 */
+.main .content .right{
 
-.main .content .right {
-  width: 600px;
+}
+.main .content .right .top {
+  width: 770px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .content .right .top .napovednik {
+  width: 300px;
+}
+.main .content .right .top a {
+  color: #c68c0c;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main .content .right .top .pomembno {
+  width: 300px;
 }
 
 /*Google map*/
