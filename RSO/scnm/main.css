@@ -3,10 +3,12 @@
   --secondary-color: #531b00;
   --white: #ffffff;
   --gray: #222222;
+  --li-gray: #f1f1f1;
 }
+
 /*
 @media (min-width: 1200px)
-1170 - content
+1140 - content
 @media (min-width: 992px)
 970
 @media (min-width: 768px)
@@ -21,13 +23,16 @@ html {
   font-family: Helvetica, Arial, sans-serif;
   color: #222222;
 }
+
 body {
   padding: 0;
   margin: 0 auto;
 }
+
 h1 {
   font-size: 24px;
 }
+
 h2 {
   text-transform: uppercase;
   font-size: 22px;
@@ -48,55 +53,73 @@ h2 {
   margin-left: 250px;
   margin-top: 20px;
 }
-.header .top {
+
+.header > .top {
   height: 100px;
-  max-width: 1170px;
+  max-width: 1140px;
   margin: auto;
 }
-.header .top .left {
+
+.header > .top > .left {
   width: 400px;
   float: left;
 }
 
-.header .top .right {
+.header > .top > .right {
   width: 400px;
   float: right;
 }
-.header .top .right p {
+
+.header > .top > .right p {
   color: #edab65;
 }
+
 /*celotna navigacija*/
 
-.header .bottom ul {
+.header > .bottom > ul {
   background-color: var(--main-color);
   list-style: none;
   padding-left: 0px;
 }
 
-.header .bottom ul div {
-  max-width: 1170px;
+.header > .bottom > ul div {
+  max-width: 1140px;
   margin: 0 auto;
 }
-.header .bottom ul li {
+
+.header > .bottom > ul li {
   background: var(--main-color);
   display: inline-block;
   padding: 10px;
-  margin: 0px;
+  margin: 0px 0px;
   min-width: 75px;
   position: relative;
   text-decoration: none;
   transition-duration: 0.7s;
 }
 
-.header .bottom ul li:hover {
+/*po principu https://css-tricks.com/the-shapes-of-css/*/
+.header > .bottom > ul li span {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 3px 5px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #ffffff;
+}
+
+.header > .bottom ul li:hover {
   background: var(--secondary-color);
   cursor: pointer;
 }
-.header .bottom ul li a {
+
+.header > .bottom > ul li a {
   color: var(--white);
   text-decoration: none;
 }
-.header .bottom ul li ul {
+
+.header > .bottom > ul li ul {
   background-color: var(--main-color);
   padding-left: 0px;
   min-width: 200px;
@@ -106,186 +129,161 @@ h2 {
   display: none;
 }
 
-.header .bottom ul li:hover ul,
-.header .bottom ul li ul:hover {
+.header > .bottom > ul li:hover ul,
+.header > .bottom > ul li ul:hover {
   visibility: visible;
   display: block;
 }
 
-.header .bottom ul li ul li {
+.header > .bottom > ul li ul li {
   clear: both;
   width: 100%;
 }
+
 /*main*/
 .main {
-  width: 1170px;
+  width: 1140px;
   margin: auto;
   background-color: #fbfbfb;
 }
-.main .content {
+
+.main > .content {
   display: flex;
   flex-wrap: nowrap;
 }
-.main .image {
-}
 
-#image {
+.cover > img {
   width: 100%;
   height: auto;
 }
-/*leva strani
 
-
-
-..................*/
-.main .content .left {
-  width: 300px;
-  background-color: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+/*#################################### leva strani #########################*/
+.main > .content > .left {
+  font-size: 15px;
+  min-width: 360px;
+  background-color: var(--li-gray);
 }
-.main .content .left .links a {
-  color: var(--gray);
-}
-.main .content .left .links {
+.main > .content > .left div {
   background-color: var(--white);
-  align-self: center;
-  display: flex;
-  width: 280px;
-  gap: 10px 0px;
+  width: 320px;
+  padding: 0px;
+  margin: 20px auto;
+  background-color: var(--white);
+}
+
+/*###############  meni  ############################*/
+.main > .content > .left ul {
   padding: 0px;
   margin: 0px;
-  flex-direction: column;
-}
-.main .content .left .links ul {
-  padding: 0px;
-  margin: 0px;
-}
-.main .content .left .links ul li {
   list-style: none;
 }
 
-.main .content .left .links .top li a {
-  display: block;
-  padding: 10px;
+.main > .content > .left ul li:not(:last-child) {
+  border-bottom: 1px solid var(--li-gray);
 }
 
-/*barve orginizacijskih enot*/
-.main .content .left .links .top li:nth-child(1) a {
-  background-color: var(--main-color);
-  color: var(--white);
-  cursor: pointer;
+.main > .content > .left ul li a {
+  display: block;
+  padding: 10px;
+  color: var(--gray);
+  text-decoration: none;
 }
-.main .content .left .links .top li:nth-child(2) a:hover {
+
+.main > .content > .left ul li:first-child {
+  background-color: var(--main-color);
+  cursor: pointer;
+  margin: 0px 0px 10px 0px;
+  text-decoration: none;
+}
+
+.main > .content > .left ul li:first-child a {
+  color: var(--white);
+  font-size: 18px;
+  text-decoration: none;
+}
+/*###############  barve orginizacijskih enot  ############################*/
+.main > .content > .left > .top > ul li:nth-child(2) a:hover {
   background-color: #0057b8;
 }
 
-.main .content .left .links .top li:nth-child(3) a:hover {
+.main > .content > .left > .top > ul li:nth-child(3) a:hover {
   background-color: #009639;
 }
 
-.main .content .left .links .top li:nth-child(4) a:hover {
+.main > .content > .left > .top > ul li:nth-child(4) a:hover {
   background-color: #ef4a81;
 }
 
-.main .content .left .links .top li:nth-child(5) a:hover {
+.main > .content > .left > .top > ul li:nth-child(5) a:hover {
   background-color: #e5a200;
 }
 
-.main .content .left .links .top li:nth-child(6) a:hover {
+.main > .content > .left > .top > ul li:nth-child(6) a:hover {
   background-color: #ffd30a;
 }
 
-.main .content .left .links .top li:nth-child(7) a:hover {
+.main > .content > .left > .top > ul li:nth-child(7) a:hover {
   background-color: #009fdf;
 }
 
-.main .content .left .links .top li:nth-child(8) a:hover {
+.main > .content > .left > .top > ul li:nth-child(8) a:hover {
   background-color: #8094dd;
 }
 
-.main .content .left .links .top li a {
-  text-decoration: none;
-}
-
-.main .content .left .links .top li a:hover {
+.main > .content > .left > .top > ul li a:hover {
   color: var(--white);
 }
 
-.main .content .left .links .mid li {
-  padding: 10px;
-}
-
-.main .content .left .links .mid li a {
-  text-decoration: none;
-}
-
-.main .content .left .links .mid li a:hover {
+.main > .content > .left > .mid > ul li:not(:first-child) a:hover {
   text-decoration: underline;
 }
 
-.main .content .left .links .mid li:nth-child(1) {
-  background-color: var(--main-color);
-  cursor: pointer;
-}
-.main .content .left .links .mid li:nth-child(1) a {
-  color: var(--white);
-  text-decoration: none;
-}
-
-.main .content .left .links .bottom {
-  background-color: var(--white);
-  padding: 0px;
-}
-
-.main .content .left .links .bottom img {
-  max-width: 100%;
+.main > .content > .left > .bottom img {
+  padding: 10px;
+  max-width: 260px;
   max-height: 100%;
 }
 
-/*
-
-desna 
-
-
-
-stran
-
-*/
-.main .content .right{
-
+/*#############################  desna stran###########################*/
+.main > .content > .right > .top h1 {
+  padding: 0px 30px;
 }
-.main .content .right .top {
-  width: 770px;
-  
+
+.main > .content > .right > .mid {
+  width: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.main .content .right .top .napovednik {
-  width: 300px;
+.main > .content > .right > .mid > div {
+  width: 50%;
+  padding: 0px 30px;
 }
-.main .content .right .top a {
+
+.main > .content > .right > .mid a {
   color: #c68c0c;
   text-decoration: none;
   font-weight: 700;
 }
 
-.main .content .right .top .pomembno {
-  width: 300px;
-}
-
-/*Google map*/
-.main .content .right .map {
+/*Google zemljevid*/
+.main > .content > .right > .map {
   position: relative;
   text-align: right;
-  height: 500px;
-  width: 600px;
+  height: auto;
+  width: auto;
 }
-.main .content .right .map .canvas {
+
+.main > .content > .right > .map > .canvas {
   overflow: hidden;
   background: none !important;
-  height: 500px;
-  width: 600px;
+  height: auto;
+  width: auto;
+}
+
+/*#####################  vizija  #################################*/
+
+.main .vizija h3 {
+  text-align: center;
+  background-color: #dadada;
 }
