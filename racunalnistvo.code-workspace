@@ -6,6 +6,7 @@
   ],
   "settings": {
     "java.project.sourcePaths": ["LAV", "RAC"],
-    "java.project.outputPath": "bin"
+    "java.project.outputPath": "bin",
+    "editor.inlayHints.enabled": false
   }
 }

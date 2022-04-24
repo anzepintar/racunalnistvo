@@ -7,7 +7,7 @@ public class Main {
     ul1.izpis();
     ul2.izpis();
     ul1.primerjaj(ul2);
-    Ulomek k = new Ulomek(12);
+    // Ulomek k = new Ulomek(12);
     ul1.sestej(ul2);
     ul1.odstej(ul2);
     System.out.println("Krajšaj:");
