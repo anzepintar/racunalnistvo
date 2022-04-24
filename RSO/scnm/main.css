@@ -49,6 +49,10 @@ h4 {
   color: var(--main-color);
 }
 
+p{
+  font-size: 14px;
+}
+
 #eID {
   z-index: 1;
   border: 5px solid var(--main-color);
@@ -65,24 +69,32 @@ h4 {
   margin-top: 20px;
 }
 
+.header {
+  background-image: url(img/header_bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 75% 0%;
+}
 .header > .top {
   height: 100px;
   max-width: 1140px;
   margin: auto;
+  padding: 20px 0px 16px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header > .top > .left {
   width: 400px;
-  float: left;
 }
 
 .header > .top > .right {
-  width: 400px;
-  float: right;
+  width: 750px;
 }
 
 .header > .top > .right p {
   color: #edab65;
+  font-size: 28px;
 }
 
 /*celotna navigacija*/
@@ -91,6 +103,7 @@ h4 {
   background-color: var(--main-color);
   list-style: none;
   padding-left: 0px;
+  margin: 0px;
 }
 
 .header > .bottom > ul div {
@@ -101,7 +114,7 @@ h4 {
 .header > .bottom > ul li {
   background: var(--main-color);
   display: inline-block;
-  padding: 10px;
+  padding: 18px 15px;
   margin: 0px 0px;
   min-width: 75px;
   position: relative;
@@ -135,7 +148,7 @@ h4 {
   padding-left: 0px;
   min-width: 200px;
   position: absolute;
-  margin-top: 10px;
+  margin-top: 18px;
   left: 0px;
   display: none;
 }
@@ -154,18 +167,18 @@ h4 {
 /*main*/
 .main {
   width: 1140px;
-  margin: auto;
+  margin: 0 auto;
   background-color: #fbfbfb;
+}
+
+.main > .cover > img {
+  width: 100%;
+  height: auto;
 }
 
 .main > .content {
   display: flex;
   flex-wrap: nowrap;
-}
-
-.cover > img {
-  width: 100%;
-  height: auto;
 }
 
 /*#################################### leva strani #########################*/
@@ -188,7 +201,6 @@ h4 {
   margin: 0px;
   list-style: none;
 }
-
 .main > .content > .left ul li:not(:last-child) {
   border-bottom: 1px solid var(--li-gray);
 }
@@ -265,6 +277,13 @@ h4 {
   display: flex;
   justify-content: space-evenly;
 }
+/*https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag*/
+.main > .content > .right > .mid hr {
+  border: none;
+  height: 1px;
+  background-color: #eeeeee;
+  margin: 20px 0px 20px 0px;
+}
 
 .main > .content > .right > .mid > div {
   width: 50%;
@@ -276,16 +295,40 @@ h4 {
   text-decoration: none;
   font-weight: 700;
 }
+.main > .content > .right > .mid a:hover {
+  text-decoration: underline;
+}
+.main .main > .content > .right > .mid p {
+  font-size: 14px;
+}
 
+.main > .content > .right > .mid > .napovednik > .novica {
+  display: flex;
+  column-gap: 10px;
+}
+.main > .content > .right > .mid .novica p{
+  margin:0px;
+  line-height: 20px;
+
+}
+
+.main > .content > .right > .mid > .pomembno > .podatki-o-soli{
+  line-height: 20px;
+}
+.main > .content > .right > .mid > .pomembno > .podatki-o-soli a {
+  color: var(--gray);
+  font-weight: 500;
+}
 /*Google zemljevid*/
-.main > .content > .right > .map {
+
+.main > .content > .right .map {
   position: relative;
   text-align: right;
   height: auto;
   width: auto;
 }
 
-.main > .content > .right > .map > .canvas {
+.main > .content > .right .map .canvas {
   overflow: hidden;
   background: none !important;
   height: auto;
@@ -314,7 +357,7 @@ h4 {
   color: var(--white);
 }
 
-.footer > .content p{
+.footer > .content p {
   display: inline-flex;
   align-items: center;
 }
@@ -328,5 +371,5 @@ h4 {
   width: 24px;
   height: 24px;
   display: inline-block;
-  background-image: url(img/rss.gif)
+  background-image: url(img/rss.gif);
 }
