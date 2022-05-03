@@ -49,7 +49,7 @@ h4 {
   color: var(--main-color);
 }
 
-p{
+p {
   font-size: 14px;
 }
 
@@ -75,6 +75,7 @@ p{
   background-repeat: no-repeat;
   background-position: 75% 0%;
 }
+
 .header > .top {
   height: 100px;
   max-width: 1140px;
@@ -88,11 +89,34 @@ p{
   width: 400px;
 }
 
-.header > .top > .right {
+.header > .top > .right > .top {
   width: 750px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.header > .top > .right p {
+.header > .top > .right > .top input {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header > .top > .right > .top .button {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0%;
+  background-image: url(img/magnify.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header > .top > .right > .bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header > .top > .right > .bottom > p {
   color: #edab65;
   font-size: 28px;
 }
@@ -187,6 +211,7 @@ p{
   min-width: 360px;
   background-color: var(--li-gray);
 }
+
 .main > .content > .left div {
   background-color: var(--white);
   width: 320px;
@@ -201,6 +226,7 @@ p{
   margin: 0px;
   list-style: none;
 }
+
 .main > .content > .left ul li:not(:last-child) {
   border-bottom: 1px solid var(--li-gray);
 }
@@ -224,6 +250,7 @@ p{
   font-size: 18px;
   text-decoration: none;
 }
+
 /*###############  barve orginizacijskih enot  ############################*/
 .main > .content > .left > .top > ul li:nth-child(2) a:hover {
   background-color: #0057b8;
@@ -277,6 +304,7 @@ p{
   display: flex;
   justify-content: space-evenly;
 }
+
 /*https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag*/
 .main > .content > .right > .mid hr {
   border: none;
@@ -295,9 +323,11 @@ p{
   text-decoration: none;
   font-weight: 700;
 }
+
 .main > .content > .right > .mid a:hover {
   text-decoration: underline;
 }
+
 .main .main > .content > .right > .mid p {
   font-size: 14px;
 }
@@ -306,19 +336,21 @@ p{
   display: flex;
   column-gap: 10px;
 }
-.main > .content > .right > .mid .novica p{
-  margin:0px;
-  line-height: 20px;
 
-}
-
-.main > .content > .right > .mid > .pomembno > .podatki-o-soli{
+.main > .content > .right > .mid .novica p {
+  margin: 0px;
   line-height: 20px;
 }
+
+.main > .content > .right > .mid > .pomembno > .podatki-o-soli {
+  line-height: 20px;
+}
+
 .main > .content > .right > .mid > .pomembno > .podatki-o-soli a {
   color: var(--gray);
   font-weight: 500;
 }
+
 /*Google zemljevid*/
 
 .main > .content > .right .map {
@@ -346,6 +378,7 @@ p{
   background-color: var(--main-color);
   padding: 20px 0px 20px 0px;
 }
+
 .footer > .content {
   margin: auto;
   display: flex;
@@ -353,6 +386,7 @@ p{
   max-width: 1140px;
   color: var(--white);
 }
+
 .footer > .content a {
   color: var(--white);
 }
@@ -361,12 +395,14 @@ p{
   display: inline-flex;
   align-items: center;
 }
+
 #gray-logo {
   width: 50px;
   height: 50px;
   display: inline-block;
   background-image: url(img/gray-logo.png);
 }
+
 #RSS {
   width: 24px;
   height: 24px;
