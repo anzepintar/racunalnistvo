@@ -93,22 +93,48 @@ p {
   width: 750px;
   display: flex;
   justify-content: flex-end;
+  height: 28px;
 }
-
+.header > .top > .right > .top .search-box {
+  display: flex;
+  justify-content: space-around;
+  height: 28px;
+}
 .header > .top > .right > .top input {
   padding: 0px;
   margin: 0px;
+  border-radius: none;
+  border: 1px solid #888888;
+  border-right: none;
 }
 
-.header > .top > .right > .top .button {
-  width: 20px;
-  height: 20px;
-  margin: 0px;
-  padding: 0px;
-  border-radius: 0%;
-  background-image: url(img/magnify.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
+.header > .top > .right > .top button {
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
+  border: none;
+}
+.header > .top > .right > .top .lang-box {
+  padding: 0px 20px;
+  width: 50px;
+  height: 28px;
+  display: flex;
+  line-height: 0px;
+  justify-content: space-between;
+}
+
+.lang-box div {
+  padding: 0px 5px;
+  display: flex;
+  align-content: center;
+}
+.lang-box a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 700;
+  line-height: 0px;
 }
 
 .header > .top > .right > .bottom {
