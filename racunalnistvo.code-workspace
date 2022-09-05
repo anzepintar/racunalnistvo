@@ -5,7 +5,7 @@
     }
   ],
   "settings": {
-    "java.project.sourcePaths": ["LAV", "RAC"],
+    "java.project.sourcePaths": ["4/LAV", "4/RAC", "3/LAV", "4/RAC"],
     "java.project.outputPath": "bin",
   }
 }
