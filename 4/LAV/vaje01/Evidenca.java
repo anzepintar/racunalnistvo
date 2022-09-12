@@ -9,6 +9,7 @@ public class Evidenca {
     krozek[3] = new Dijak("Janko", "Volk");
     izpisTabele(krozek);
   }
+  
   public static void izpisTabele(Dijak[] tab){
     for (int i = 0; i < tab.length; i++) {
       if (tab[i] != null)
