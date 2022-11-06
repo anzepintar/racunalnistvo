@@ -9,6 +9,7 @@ public class ArithmeticExceptionIzjema {
         System.out.println(a);
       } catch (ArithmeticException a) {
         System.out.println("deljenje z 0");
+        //print exception a
       }
     }
 
