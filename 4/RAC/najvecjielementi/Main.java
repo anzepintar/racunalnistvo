@@ -2,7 +2,7 @@ package najvecjielementi;
 
 public class Main {
   public static void main(String[] args) {
-    int tab[] = { 1, 3, 4, 8, 5, 6, 7, 3, 1,9,9,9,9 };
+    int tab[] = { 1, 3, 4, 8, 5, 6, 7, 3, 1, 9, 9, 9, 9 };
     int max[] = new int[3];
     int min = tab[0];
     for (int i = 0; i < tab.length; i++) {
